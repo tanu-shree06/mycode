@@ -5,7 +5,7 @@ rupp = int(input("Enter Number "))
 def ruppee_to_word(rupp):
    
     below20 = ["Zero","One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine","Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen","Sixteen", "Seventeen", "Eighteen", "Nineteen"]
-    above20 = ["","","Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"]
+    above20 = ["","","Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety","Twenty"]
 
     def twodigit(rupp):
         if rupp < 20:
